@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+body {
+    height: 100vh;
+    background-color: #003;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .div1 {
+    text-align: center;
+    left: 50%;                                                  
+    top: 50%;                                                    
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 80%;
+} */
+ 
+form {
+    background-color: #0000889f;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+input {
+    background-color: #0000aaa0;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px 10px;
+    /* width: 200px; */
+    flex-basis: 200px;               /* same as width */
+    flex-grow: 1;                 /* grow in free spaces */
+}
+
+button {
+    display: inline;
+    background-color: #14a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    flex-basis: 30px;
+    flex-grow: 1;                 /* grow in free spaces if found */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .one {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+input {
+    margin-bottom: 5px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    width: 100%;
+}
+
+.button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2px 0 4px 2px;
+}
+button {
+    width: 100%;
+} */
